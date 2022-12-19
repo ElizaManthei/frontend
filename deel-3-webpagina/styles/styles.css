@@ -1,1 +1,59 @@
 /*Schrijf hier jouw css*/
+body {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    background-color: #8CB4B9;
+}
+
+div {
+   text-align: center;
+}
+
+
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+
+    gap: 20px;
+}
+
+/*}*/
+
+article {
+
+    /*border-style: solid;*/
+    font: bold 1rem sans-serif;
+    /*margin: 2rem;*/
+    /*padding: 1rem;*/
+    text-align: end;
+
+/*!*border-spacing: 50px;*!*/
+
+
+/*    !*outline-offset: 0.5rem;*!*/
+}
+figure {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: center;
+    inline-size: 280px;
+
+    overflow-wrap: break-word;
+
+    /*border: thin #c0c0c0 solid;*/
+    background-color: hotpink;
+
+
+    max-width: 280px;
+    height: 350px;
+
+    margin: auto;
+}
+ .ppp {
+     display: flex;
+
+ }

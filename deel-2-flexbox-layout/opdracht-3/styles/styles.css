@@ -1,1 +1,24 @@
 /*Schrijf hier jouw CSS*/
+body {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 100vh;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    flex: 1 1 auto;
+}
+
+aside {
+    flex: 0 0 20%;
+    flex-wrap: wrap;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 100%;
+}

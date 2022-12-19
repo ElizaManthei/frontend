@@ -1,1 +1,92 @@
 /*Schrijf hier jouw CSS*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+
+}
+
+
+.opd1 {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.opd2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /*flex-basis: 100%;*/
+
+}
+
+.opd2a {
+    flex-basis: 100%;
+}
+
+.opd3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /*!*justify-items: auto;*!*/
+    /*align-items: center;*/
+    /*align-self: center;*/
+}
+li.opd3a {
+    align-self: flex-start;
+}
+
+li.opd3b {
+    align-self: center;
+}
+li.opd3c {
+    align-self: flex-end;
+}
+
+.opd4 {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.opd5 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.opd5a {
+   background-color: #28505D;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /*gap: 40px;*/
+}
+
+
+.opd5b {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.opd5c {
+    display: flex;
+    flex-direction: column;
+    /*justify-content: space-between;*/
+    align-items: flex-end;
+}
+
+li.opd5d {
+    justify-content: flex-start;
+}
