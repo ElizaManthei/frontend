@@ -2,58 +2,70 @@
 body {
     display: flex;
     flex-direction: column;
-    width: 100vw;
-    height: 100vh;
-    background-color: #8CB4B9;
+    min-width: 100vw;
+    min-height: 100vh;
+    background-color: #F2F3D9;
+    text-align: center;
+    gap: 40px;
 }
 
-div {
-   text-align: center;
+    nav {
+        background-color: #030027;
+        color: #E6EAEB;
+        display: flex;
+        flex-direction: row;
+        justify-content:space-between;
+        gap: 40px;
+        padding-left: 40px;
+        padding-right: 40px;
+        margin: -10px;
+        flex: 0 0 100%;
+    }
+
+a {
+    text-decoration: none;
+    color: #E6EAEB;
 }
 
-
-section {
-    display: flex;
+.navi {
+    display: inline-flex;
     flex-direction: row;
+    align-items: center;
     justify-content: flex-end;
-
-    gap: 20px;
+    gap: 30px;
+    min-width: 50%;
+    flex: 0 0 auto;
 }
-
-/*}*/
-
-article {
-
-    /*border-style: solid;*/
-    font: bold 1rem sans-serif;
-    /*margin: 2rem;*/
-    /*padding: 1rem;*/
-    text-align: end;
-
-/*!*border-spacing: 50px;*!*/
-
-
-/*    !*outline-offset: 0.5rem;*!*/
-}
-figure {
+header {
     display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-content: center;
-    inline-size: 280px;
-
-    overflow-wrap: break-word;
-
-    /*border: thin #c0c0c0 solid;*/
-    background-color: hotpink;
-
-
-    max-width: 280px;
-    height: 350px;
-
-    margin: auto;
+    flex-direction: column;
+    flex: 1 1 auto;
 }
- .ppp {
-     display: flex;
+    article {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 30px;
+        flex: 1 1 auto;
+    }
 
- }
+    .box {
+        background-color: #C16E70;
+        border-radius: 5px;
+        border-style: solid;
+        border-width: 5px;
+        border-color: #C16E70;
+        height: 350px;
+        max-width: 280px;
+
+        display: flex;
+        flex-direction: row;
+        gap: 15px;
+        align-items: flex-end;
+        overflow-wrap: break-word;
+        flex: 1 1 280px;
+
+    }
+
+
+
